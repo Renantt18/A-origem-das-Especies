@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* Importo fontes externas */
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.google.com/specimen/DM+Serif+Text');
 
 /* Cria variaveis para o CSS */
 :root {
-    --cor-principal: #56d1f0;
-    --cor-secundaria: #F2E2C4;
+    --cor-principal: #3ae464;
+    --cor-secundaria: #2c2a25;
 }
 
 * {
@@ -99,13 +99,21 @@ section img {
     border: 1px solid #333;
 }
 
-footer {
-    position: sticky;
-    background-color: var(--cor-secundaria);
+#footer {
+    clear: both;
     padding: 20px;
-    text-align: center;
+    background-color: #322a2a;
     font-weight: bold;
-}html {
-  height: 100%;
-  width: 100%;
+    text-align: center;
+}
+
+#imagemLivro {
+    width: 400px; 
+    height: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.meia-altura {
+    min-height: 50vh;
 }
